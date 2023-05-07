@@ -1,0 +1,17 @@
+{
+  "name": "my-space",
+  "version": "1.0.0",
+  "description": "A personal website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yiyang Bao",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "node-fetch": "^3.3.1"
+  }
+}

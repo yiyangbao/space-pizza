@@ -1,0 +1,11 @@
+name: Show Space Pizza
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to hosting platform
+        run: your-deployment-command
+        env:
+          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+          IPSTACK_API_KEY: ${{ secrets.IPSTACK_API_KEY }}
