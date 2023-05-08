@@ -15,4 +15,4 @@ jobs:
         OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
         IPSTACK_API_KEY: ${{ secrets.IPSTACK_API_KEY }}
       run:
-        echo 'done'
+        npm start
